@@ -1,1 +1,1 @@
-# HOTELAMERICa
+# hotel-amarica-shako

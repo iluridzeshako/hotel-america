@@ -1,68 +1,132 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>hotel america</title>
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<link rel="stylesheet" type="text/css" href="css/reset.css">
-<!DOCTYPE html>
-<html>
-<head>
-	<title>hotel america</title>
+	<title>Hotel Amarica</title>
 	<meta charset="utf-8">
-	<link rel="stylesheet" type="text/css" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
-	<header>
+	<header class="header">
 	 <div class="container flex">
 		<a href="#">
-		<img class="logo" src="" alt="logo">
-	 </a>
-
-	   <nav class="navigation">
+			<img class="logo" src="img/logo1.png" alt="logo">
+	    </a>
+	    <nav class="navigation">
 		  <ul class="navigation-ul">
-			 <li class="navigation-li">
-				 <a class="navigation-a" href="#">HOME</a>
-			 </li>
+			<li class="navigation-li">
+				<a class="navigation-a" href="#">HOME</a>
+			</li>
 
-			 <li class="navigation-li">
-				 <a class="navigation-a" href="#"> ABOUT US </a>
-			 </li>
+			<li class="navigation-li">
+				<a class="navigation-a" href="#"> ABOUT US </a>
+			</li>
 
-			 <li class="navigation-li">
-				 <a class="navigation-a" href="#">SHOP</a>
-			 </li>
-			 <li class="navigation-li">
-				 <a class="navigation-a" href="#">PORTFOLIO</a>
-			 </li>
-			 <li class="navigation-li">
-				 <a class="navigation-a" href="#">BLOG</a>
-			 </li>
-			 <li class="navigation-li">
-				 <a class="navigation-a" href="#">CONTACT</a>
-			 </li>      
-			
-		</ul>
-	</nav>
-</div> 
-<section class="section1">
-		<div class="container">
-			<img class="banner1" src="img/b1.svg" alt="banner">
-			<img class="banner2" src="img/b2.svg" alt="banner">
-			<img class="banner3" src="img/b3.svg" alt="banner">
-			<div class="">					
-		    </div>
-	</div></section>
-	</header>
-	<form class="form"action="#">
-		<div class="div1">
-			<input type="text" class="form-control" name="name" placeholder="arrival" onfocus="this.placeholder = ''" onblur="this.placeholder = 'arrival'">
-								<input type="email" class="form-control" name="email" placeholder="depature" onfocus="this.placeholder = ''" onblur="this.placeholder = 'depature'">
-								<input type="text" class="form-control" name="phone" placeholder="chosee a room" onfocus="this.placeholder = ''" onblur="this.placeholder ='chosee a room'">		
-								<input type="text" class="" name="date" placeholder="state" onfocus="this.placeholder = ''" onblur="this.placeholder = 'date'" id="">		
-							<button class="button1">book now</button>	
-																	
-		</div>
+			<li class="navigation-li">
+				<a class="navigation-a" href="#">SHOP</a>
+			</li>
+			<li class="navigation-li">
+				<a class="navigation-a" href="#">PORTFOLIO</a>
+			</li>
+			<li class="navigation-li">
+				<a class="navigation-a" href="#">BLOG</a>
+			</li>
+			<li class="navigation-li">
+				<a class="navigation-a" href="#">CONTACT</a>
+			</li>      			
+		  </ul>
+	    </nav>
+     </div> 
+ </header>
+
+ <section class="banner-section">
+ 	<img class="banner" src="img/banner.png" alt="banner">
+ 	  <div class="text-image">
+ 		<h1 class="text-on-image1"> Perfection. </h1>
+ 		<h1 class="text-on-image2"> And You Are Invited. </h1>
+ 	  </div>
+ </section>
+
+ <section class="form-after-banner">
+ 	<div class="container form-bg">
+ 		<form class="form flex" action="#">
+		  <div class="form-group">
+			<input class="input" type="text" placeholder="Arrival">
+		  </div>
+		  <div class="form-group">
+			<input class="input" type="text" placeholder="Departure">
+		  </div>
+		  <div class="form-group">
+			<input class="input" type="text" placeholder="Choose a Room">
+		  </div>	
+		  <div class="form-group">
+			<input class="input" type="text" placeholder="State">
+		  </div>		
+			<button class="button">Book now</button>
+		</form>
+    </div>
+ </section>
+ <section class="about-us">
+ 	<div class="container">
+ 		<h1 class="section-hotel-title"> Award Wining Hotels </h1>
+ 		<div class="hotels flex">
+ 			<div class="hotel">
+ 				<img class="hotel-img" src="img/hotel1.png" alt="image">
+ 				<h3 class="title-after-image"> Middle of downtown </h3>
+ 				<p class="text-after-image"> We fill the space content. High-quality, beautiful, solid and pleasant to the touch. Furniture  </p>
+ 			</div>
+ 			<div class="hotel">
+ 				<img class="hotel-img" src="img/hotel2.png" alt="image">
+ 				<h3 class="title-after-image"> Middle of downtown </h3>
+ 				<p class="text-after-image"> We fill the space content. High-quality, beautiful, solid and pleasant to the touch. Furniture  </p>
+ 			</div>
+ 			<div class="hotel3">
+ 				<img class="hotel-img" src="img/hotel3.png" alt="image">
+ 				<h3 class="title-after-image"> Middle of downtown </h3>
+ 				<p class="text-after-image"> We fill the space content. High-quality, beautiful, solid and pleasant to the touch. Furniture  </p>
+ 			</div>
+ 		</div>
+
+ 		<div class="hotels flex">
+ 			<div class="hotel">
+ 				<img class="hotel-img" src="img/hotel4.png" alt="image">
+ 				<h3 class="title-after-image"> Middle of downtown </h3>
+ 				<p class="text-after-image"> We fill the space content. High-quality, beautiful, solid and pleasant to the touch. Furniture  </p>
+ 			</div>
+ 			<div class="hotel">
+ 				<img class="hotel-img" src="img/hotel5.png" alt="image">
+ 				<h3 class="title-after-image"> Middle of downtown </h3>
+ 				<p class="text-after-image"> We fill the space content. High-quality, beautiful, solid and pleasant to the touch. Furniture  </p>
+ 			</div>
+ 			<div class="hotel3">
+ 				<img class="hotel-img" src="img/hotel6.png" alt="image">
+ 				<h3 class="title-after-image"> Middle of downtown </h3>
+ 				<p class="text-after-image"> We fill the space content. High-quality, beautiful, solid and pleasant to the touch. Furniture  </p>
+ 			</div>
+ 		</div>
+ 		<div class="read-more">
+ 			<a class="more" href=""> More </a>
+ 		</div>
+ 	</div>
+ </section>
+  <section c>
+   	  <h1 class="winter-title">Winter activities</h1>
+ 	 <div>   	  
+ 	    <div class="winter-div-class">
+ 	      <img class="winter-potos1"src="img/winter1.png" alt="winter1"> 	  
+ 	         <img class="winter-potos2"src="img/winter2.png" alt="winter2">
+ 	         <img class="winter-potos3"src="img/winter3.png" alt="winter3">
+ 	         <img class="winter-potos4"src="img/winter4.png" alt="winter4">
+ 	         <img class="winter-potos5"src="img/winter5.png" alt="winter5">
+       </div>
+       <div>
+ 	      
+
+      	
+      </div>
+    </div>  
+ </section>
 														
 </body>
 </html>
